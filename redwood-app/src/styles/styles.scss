@@ -1,0 +1,60 @@
+$darkbark: #4b190c;
+$eggshell: #e4bfaf;
+
+$beaver:    #a17a67;
+$darkgreen: #2C6E49;
+$almond:    #EAE0D5;
+$khaki:     #C6AC8F;
+$richblack: #0A0F0D;
+
+
+$orange: #ff8606;
+$darkbark-invert: findColorInvert($darkbark);
+$custom-colors: ("darkbark": ($darkbark, $darkbark-invert));
+
+.navbar {
+    padding: 0;
+    background-color: $beaver;
+    border-radius: 1rem;
+}
+
+.nav-button-div {
+    padding: 0.5rem 0.75rem;
+}
+
+nav {
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+    a {
+        font-weight: bold;
+        color: $richblack;
+
+        &.router-link-exact-active {
+            color: $darkgreen;
+        }
+    }
+}
+
+.hero-body {
+    background-image: url("../assets/banner2.png");
+}
+
+#banner-title {
+    font-family: Jamrul;
+    font-size: 10rem;
+    color: $darkbark;
+    margin-bottom: 0;
+}
+
+#banner-subtitle {
+    font-family: Karumbi;
+    font-size: 8rem;
+    color: $eggshell;
+}
+
+#banner-container {
+    padding: 5rem;
+    background-color: rgba($color: $beaver, $alpha: 0.5);
+    border-radius: 1rem;
+}

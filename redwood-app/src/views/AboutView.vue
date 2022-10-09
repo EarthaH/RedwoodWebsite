@@ -1,0 +1,14 @@
+<template>
+  <div class="container is-large about">
+    <h1 class="title">This is an about page</h1>
+  </div>
+</template>
+
+<script>
+
+export default {
+  name: 'AboutView',
+  components: {
+  }
+}
+</script>
